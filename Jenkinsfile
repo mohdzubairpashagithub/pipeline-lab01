@@ -4,7 +4,7 @@ pipeline {
     stage('Fluffy Build') {
       steps {
         sh '''chmod 777 build.sh
-build.sh'''
+./build.sh'''
       }
     }
 
