@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Fluffy Build') {
       steps {
-        sh './build.sh'
+        sh '''chmod 777 build.sh
+build.sh'''
       }
     }
 
